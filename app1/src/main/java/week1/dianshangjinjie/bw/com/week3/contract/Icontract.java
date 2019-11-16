@@ -1,0 +1,25 @@
+package week1.dianshangjinjie.bw.com.week3.contract;
+
+import week1.dianshangjinjie.bw.com.week3.entity.SQentity;
+
+/**
+ * 作者：Han98
+ * 创建时间：2019/11/14
+ * 描述：TODO
+ * 最近修改：2019/11/14 18:53 modify by liujc
+ */
+public interface Icontract {
+
+    //p
+    interface IPresenter{
+        void getData();
+    }
+
+    interface callBack{
+        void back(SQentity sQentity);
+
+    }
+    interface Iview{
+        void success(SQentity sQentity);
+    }
+}
